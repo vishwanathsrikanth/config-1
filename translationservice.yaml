@@ -1,0 +1,5 @@
+spring:
+  datasource:
+    url: jdbc:sqlserver://msreadyasctranssql1.database.windows.net:1433;database=translationsdb;user=translationsuser@msreadyasctranssql1;password={your_password_here};encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+defaultlanguage: en
